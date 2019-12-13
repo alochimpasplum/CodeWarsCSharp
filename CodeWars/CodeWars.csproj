@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="kiu8\EvenOrOdd.cs" />
     <Compile Include="kiu8\LostWithoutAMap.cs" />
+    <Compile Include="kiu8\RepeatString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
