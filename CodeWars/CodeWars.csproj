@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="kiu8\DivisibleNb.cs" />
     <Compile Include="kiu8\EvenOrOdd.cs" />
     <Compile Include="kiu8\LostWithoutAMap.cs" />
     <Compile Include="kiu8\RepeatString.cs" />
