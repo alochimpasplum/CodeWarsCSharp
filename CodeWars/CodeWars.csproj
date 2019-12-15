@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="kiu7\BorrowerSpeak.cs" />
     <Compile Include="kiu7\Mumbling.cs" />
+    <Compile Include="kiu7\NumbersToLetters.cs" />
     <Compile Include="kiu7\SumOddNumbers.cs" />
     <Compile Include="kiu8\DivisibleNb.cs" />
     <Compile Include="kiu8\EvenOrOdd.cs" />
