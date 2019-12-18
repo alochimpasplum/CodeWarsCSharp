@@ -10,9 +10,7 @@ namespace CodeWars
     {
         static void Main()
         {
-            int[] peopleInLine = new int[] { 25, 25, 25, 100 };
-
-            Console.WriteLine(kiu6.VasyaClerk.Tickets(peopleInLine));
+            Console.WriteLine();
             Console.ReadKey();
         }
     }
