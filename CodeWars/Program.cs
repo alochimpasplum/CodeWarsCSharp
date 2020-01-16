@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CodeWars.tests;
 
 namespace CodeWars
 {
@@ -10,7 +11,8 @@ namespace CodeWars
     {
         static void Main()
         {
-            Console.WriteLine();
+            GetSet.testBool = false;
+            Console.WriteLine(GetSet.testBool);
             Console.ReadKey();
         }
     }
