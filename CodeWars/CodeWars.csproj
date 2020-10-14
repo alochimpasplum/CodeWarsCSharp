@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CodeWars.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,6 +48,7 @@
   <ItemGroup>
     <Compile Include="kiu6\Bookseller.cs" />
     <Compile Include="kiu6\DeafRatsOfHamelin.cs" />
+    <Compile Include="kiu6\FindTheOddInt.cs" />
     <Compile Include="kiu6\MorseCode.cs" />
     <Compile Include="kiu6\StrongestEvenNumber.cs" />
     <Compile Include="kiu6\VasyaClerk.cs" />
