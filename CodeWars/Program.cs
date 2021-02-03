@@ -11,7 +11,9 @@ namespace CodeWars
     {
         static void Main()
         {
-            Console.WriteLine(kiu6.FindTheOddInt.find_it(new[] { 20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5 }));
+            int[] arr = kiu6.FirstNSmallest.FirstNSmallestKata(new[] { 2, 1, 2, 3, 4, 2 }, 2);
+            foreach (int i in arr)
+                Console.Write(i);
             Console.ReadKey();
         }
     }

@@ -46,9 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="kiu6\BackspacesInString.cs" />
     <Compile Include="kiu6\Bookseller.cs" />
     <Compile Include="kiu6\DeafRatsOfHamelin.cs" />
     <Compile Include="kiu6\FindTheOddInt.cs" />
+    <Compile Include="kiu6\FirstNSmallest.cs" />
     <Compile Include="kiu6\MorseCode.cs" />
     <Compile Include="kiu6\StrongestEvenNumber.cs" />
     <Compile Include="kiu6\VasyaClerk.cs" />
@@ -59,6 +61,7 @@
     <Compile Include="kiu7\SumOddNumbers.cs" />
     <Compile Include="kiu8\DivisibleNb.cs" />
     <Compile Include="kiu8\EvenOrOdd.cs" />
+    <Compile Include="kiu8\GradeBook.cs" />
     <Compile Include="kiu8\LostWithoutAMap.cs" />
     <Compile Include="kiu8\RepeatString.cs" />
     <Compile Include="Program.cs" />
