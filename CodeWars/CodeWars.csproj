@@ -52,6 +52,7 @@
     <Compile Include="kiu6\FindTheOddInt.cs" />
     <Compile Include="kiu6\FirstNSmallest.cs" />
     <Compile Include="kiu6\MorseCode.cs" />
+    <Compile Include="kiu6\PersistentBugger.cs" />
     <Compile Include="kiu6\StrongestEvenNumber.cs" />
     <Compile Include="kiu6\VasyaClerk.cs" />
     <Compile Include="kiu7\BorrowerSpeak.cs" />
