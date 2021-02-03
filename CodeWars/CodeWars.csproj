@@ -38,6 +38,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -54,6 +57,7 @@
     <Compile Include="kiu6\MorseCode.cs" />
     <Compile Include="kiu6\PersistentBugger.cs" />
     <Compile Include="kiu6\StrongestEvenNumber.cs" />
+    <Compile Include="kiu6\SumParts.cs" />
     <Compile Include="kiu6\VasyaClerk.cs" />
     <Compile Include="kiu7\BorrowerSpeak.cs" />
     <Compile Include="kiu7\BreakingChocolate.cs" />
@@ -67,7 +71,9 @@
     <Compile Include="kiu8\RepeatString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tests\FillArray.cs" />
     <Compile Include="tests\GetSet.cs" />
+    <Compile Include="tests\TimeExecution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
