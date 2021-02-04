@@ -52,6 +52,7 @@
     <Compile Include="kiu6\BackspacesInString.cs" />
     <Compile Include="kiu6\Bookseller.cs" />
     <Compile Include="kiu6\DeafRatsOfHamelin.cs" />
+    <Compile Include="kiu6\ErrorCorrection1HammingCode.cs" />
     <Compile Include="kiu6\FindTheOddInt.cs" />
     <Compile Include="kiu6\FirstNSmallest.cs" />
     <Compile Include="kiu6\MorseCode.cs" />

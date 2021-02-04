@@ -12,30 +12,7 @@ namespace CodeWars
     {
         static void Main()
         {
-            int testNumbers = 5;
-            List<long> executionTimes = new List<long>();
-            Stopwatch watch = new Stopwatch();
-            Dictionary<int, long> times = new Dictionary<int, long>();
-
-            //int[] arr = kiu6.SumParts.PartsSums(new int[] { 0, 1, 3, 6, 10 });
-
-            //for (int i = 0; i < arr.Length; i++)
-            //{
-            //    Console.Write(arr[i] + ",");
-            //}
-            //Console.WriteLine();
-
-            for (int i = 1; i <= testNumbers; i++)
-            {
-                int[] arr = FillArray.FillThisArray(i);
-
-                watch.Start();
-                kiu6.SumParts.PartsSums(arr);
-                watch.Stop();
-                times.Add(i, watch.ElapsedMilliseconds);
-            }
-
-            TimeExecution.ExecutionTimes(times);
+            kiu6.ErrorCorrection1HammingCode.Decode("100111111000111001000010000111111000000111001111000111110110111000010111");
 
             Console.ReadKey();
         }
