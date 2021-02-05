@@ -56,6 +56,7 @@
     <Compile Include="kiu6\FindTheOddInt.cs" />
     <Compile Include="kiu6\FirstNSmallest.cs" />
     <Compile Include="kiu6\MorseCode.cs" />
+    <Compile Include="kiu6\MultiplesOf3Or5.cs" />
     <Compile Include="kiu6\PersistentBugger.cs" />
     <Compile Include="kiu6\StrongestEvenNumber.cs" />
     <Compile Include="kiu6\SumParts.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="kiu8\GradeBook.cs" />
     <Compile Include="kiu8\LostWithoutAMap.cs" />
     <Compile Include="kiu8\RepeatString.cs" />
+    <Compile Include="Kumite\RecursiveFactorials.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tests\FillArray.cs" />
