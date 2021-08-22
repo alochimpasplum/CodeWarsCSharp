@@ -12,9 +12,10 @@ namespace CodeWars
     {
         static void Main()
         {
-            Console.WriteLine(Kumite.RecursiveFactorials.Kata(24));
-
-            Console.ReadKey();
+            int[] result = kiu6.BuyingACar.nbMonths(2000, 8000, 1000, 1.5);
+            Console.WriteLine($"Resultado: [{result[0]},{result[1]}]");
+            result = kiu6.BuyingACar.nbMonths(12000, 8000, 1000, 1.5);
+            Console.WriteLine($"Resultado: [{result[0]},{result[1]}]");
         }
     }
 }
