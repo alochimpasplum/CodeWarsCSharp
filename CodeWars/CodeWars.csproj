@@ -78,10 +78,14 @@
     <Compile Include="tests\GetSet.cs" />
     <Compile Include="tests\TimeExecution.cs" />
     <Compile Include="kiu6\BuyingACar.cs" />
+    <Compile Include="PruebasProgramacionAsincrona\TortillaDePatatasAsincrona.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Folder Include="PruebasProgramacionAsincrona\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
