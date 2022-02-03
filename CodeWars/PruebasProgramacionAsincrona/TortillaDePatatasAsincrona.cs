@@ -11,11 +11,17 @@ namespace CodeWars.PruebasProgramacionAsincrona
             Sarten sarten = await BuscaSarten();
             Console.WriteLine("Sarten encontrada, es necesario calentarla");
 
-            Task<Sarten> calientaSarten = CalientaSarten(sarten);
-
             Console.WriteLine("Mientras se calienta la sarten, buscare las patatas y los huevos");
+            Task<Sarten> calientaSarten = CalientaSarten(sarten);
             Task<Patata[]> buscaPatatas = BuscaPatatas(5);
             Task<Huevo[]> buscaHuevos = BuscaHuevos(2);
+
+            await Task.WhenAll(calientaSarten, buscaHuevos, buscaPatatas);
+            Console.WriteLine("Ahora que la sarten esta caliente y tengo los huevos y las patatas, pelare y freire las patatas");
+            sarten = await calientaSarten;
+            Huevo[] Huevos = await buscaHuevos;
+            Patata[] Patatas = await buscaPatatas;
+            
         }
 
         private async Task<Sarten> BuscaSarten()
